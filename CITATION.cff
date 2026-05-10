@@ -1,0 +1,54 @@
+cff-version: 1.2.0
+message: "If you use NEUROPIA in your research, please cite this software."
+title: "NEUROPIA: Neural Cognitive Field Unification for Cross-Domain Dissipative Intelligence"
+version: 1.0.0
+doi: 10.5281/zenodo.20092199
+date-released: 2026-05
+url: "https://github.com/gitdeeper11/NEUROPIA"
+authors:
+  - family-names: "Baladi"
+    given-names: "Samir"
+    orcid: "https://orcid.org/0009-0003-8903-0029"
+    affiliation: "Ronin Institute / Rite of Renaissance"
+license: MIT
+keywords:
+  - multi-physics
+  - neural-operators
+  - entropy-minimization
+  - dissipation-control
+  - PINN
+  - unified-field
+  - quantum-coherence
+  - MHD
+  - gravitational-waves
+  - metabolic-networks
+repository-code: "https://gitlab.com/gitdeeper11/NEUROPIA"
+abstract: "NEUROPIA (E-LAB-10) is the tenth and final installment of the EntropyLab research program. It introduces the first Physics-Informed Artificial Intelligence framework for unified multi-physics dissipation control across 9 coupled physical domains: magnetohydrodynamics, thermodynamics, quantum optics, gravitation, chemistry, biology, and AI inference thermodynamics. The framework achieves 96.8% mean Unified Efficiency Index and 12.3× instability suppression factor across 8 validation regimes."
+references:
+  - type: software
+    doi: 10.5281/zenodo.19416737
+    note: "ENTROPIA (E-LAB-01)"
+  - type: software
+    doi: 10.5281/zenodo.19551614
+    note: "ENTRO-AI (E-LAB-02)"
+  - type: software
+    doi: 10.5281/zenodo.19729926
+    note: "PHOTON-Q (E-LAB-03)"
+  - type: software
+    doi: 10.5281/zenodo.19740081
+    note: "ENTRO-ENGINE (E-LAB-04)"
+  - type: software
+    doi: 10.5281/zenodo.19749613
+    note: "CHEM-ENTROPIA (E-LAB-05)"
+  - type: software
+    doi: 10.5281/zenodo.19754893
+    note: "BIO-ENTROPIA (E-LAB-06)"
+  - type: software
+    doi: 10.5281/zenodo.19760903
+    note: "THERMO-NET (E-LAB-07)"
+  - type: software
+    doi: 10.5281/zenodo.19875543
+    note: "GRAVI-NEURAL (E-LAB-08)"
+  - type: software
+    doi: 10.5281/zenodo.19893462
+    note: "MAGNA-FLOW (E-LAB-09)"

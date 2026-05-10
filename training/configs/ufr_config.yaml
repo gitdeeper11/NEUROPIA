@@ -1,0 +1,5 @@
+horizon_us: 800
+timestep_us: 40
+lambda_safe: 0.05
+F_max: 1.2
+warm_start: true

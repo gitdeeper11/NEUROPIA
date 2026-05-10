@@ -1,0 +1,42 @@
+# NEUROPIA Configuration (E-LAB-10)
+version: 1.0.0
+
+model:
+  name: NEUROPIA
+  n_components: 32
+  spatial_dim: 256
+  k_max: 96
+  n_layers: 12
+  hidden_channels: 512
+
+control:
+  horizon_us: 800
+  timestep_us: 40
+  lambda_safe: 0.05
+  F_max: 1.2
+
+gcn:
+  lambda_weights: [1.0, 8.0, 12.0, 4.0, 3.0, 5.0, 2.0, 6.0, 7.0]
+  rebalance_interval: 250
+
+regimes:
+  V1: tokamak_thermal
+  V2: hall_ai
+  V3: reactor_chemical
+  V4: dynamo_gravitational
+  V5: quantum_thermal
+  V6: bio_chemical
+  V7: ai_thermal
+  V8: full_fusion_plant
+
+domains:
+  - fluid_mechanics
+  - magnetodynamics
+  - gravitational
+  - thermal
+  - electrochemical
+  - quantum_coherence
+  - chemical_reactive
+  - biological_metabolic
+  - cognitive_information
+  - control_actuation
