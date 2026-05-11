@@ -7,7 +7,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20092199.svg)](https://doi.org/10.5281/zenodo.20092199)
 [![License: MIT](https://img.shields.io/badge/License-MIT-crimson.svg)](LICENSE)
-[![PyPI](https://img.shields.io/pypi/v/neuropia-engine)](https://pypi.org/project/neuropia-engine/)
+[![PyPI](https://img.shields.io/pypi/v/neuropia-engine)](https://pypi.org/project/neuropia-engine/1.0.0/)
 [![EntropyLab](https://img.shields.io/badge/EntropyLab-E--LAB--10-8B0000)](https://entropia-lab.netlify.app)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0003--8903--0029-a6ce39)](https://orcid.org/0009-0003-8903-0029)
 
@@ -314,14 +314,52 @@ NEUROPIA is the capstone of a ten-project unified research program. All projects
 
 | Platform | Identifier / URL | Content |
 |---|---|---|
-| **Zenodo** | [10.5281/zenodo.20092199](https://doi.org/10.5281/zenodo.20092199) | Archived release, DOI, datasets |
+| **Zenodo** | [10.5281/zenodo.20092199](https://doi.org/10.5281/zenodo.20092199) | Archived release, DOI, datasets, paper PDF |
 | **GitLab** (Primary) | [gitlab.com/gitdeeper11/NEUROPIA](https://gitlab.com/gitdeeper11/NEUROPIA) | Primary repo, CI/CD pipelines |
-| **GitHub** | [github.com/gitdeeper11/NEUROPIA](https://github.com/gitdeeper11/NEUROPIA) | Mirror repository |
-| **Codeberg** | [codeberg.org/gitdeeper11/NEUROPIA](https://codeberg.org/gitdeeper11/NEUROPIA) | Mirror repository |
-| **PyPI** | `pip install neuropia-engine` | Python library (v1.0.0) |
+| **GitHub** (Mirror) | [github.com/gitdeeper11/NEUROPIA](https://github.com/gitdeeper11/NEUROPIA) | Community mirror |
+| **Bitbucket** (Mirror) | [bitbucket.org/gitdeeper-11/neuropia](https://bitbucket.org/gitdeeper-11/neuropia) | Backup mirror |
+| **Codeberg** (Mirror) | [codeberg.org/gitdeeper11/NEUROPIA](https://codeberg.org/gitdeeper11/NEUROPIA) | European mirror |
+| **PyPI** | [`pip install neuropia-engine`](https://pypi.org/project/neuropia-engine/1.0.0/) | Python library (v1.0.0) |
 | **Netlify** | [neuropia-v1.netlify.app](https://neuropia-v1.netlify.app) | Interactive demo + docs |
-| **OSF** | [osf.io/entropylab](https://osf.io/entropylab) | Preregistrations + data |
+| **OSF Project** | [osf.io/7pyn9](https://osf.io/7pyn9) | Research project data |
+| **OSF Preregistration** | [10.17605/OSF.IO/A4W8Z](https://doi.org/10.17605/OSF.IO/A4W8Z) | Registered study protocol |
+| **Internet Archive** | [archive.org/details/osf-registrations-a4w8z-v1](https://archive.org/details/osf-registrations-a4w8z-v1) | Permanent archive |
 | **ORCID** | [0009-0003-8903-0029](https://orcid.org/0009-0003-8903-0029) | Author identifier |
+
+### Direct Downloads
+
+| Resource | Link |
+|---|---|
+| GitLab ZIP | [NEUROPIA-main.zip](https://gitlab.com/gitdeeper11/NEUROPIA/-/archive/main/NEUROPIA-main.zip) |
+| GitHub ZIP | [main.zip](https://github.com/gitdeeper11/NEUROPIA/archive/refs/heads/main.zip) |
+| Bitbucket ZIP | [main.zip](https://bitbucket.org/gitdeeper-11/neuropia/get/main.zip) |
+| Codeberg ZIP | [main.zip](https://codeberg.org/gitdeeper11/NEUROPIA/archive/main.zip) |
+| Zenodo Archive | [NEUROPIA.zip](https://zenodo.org/records/20092199/files/NEUROPIA.zip) |
+| Paper PDF | [NEUROPIA\_Research\_Paper\_v2.pdf](https://zenodo.org/records/20092199/files/NEUROPIA_Research_Paper_v2.pdf) |
+
+### Clone Commands
+
+```bash
+# Primary
+git clone https://gitlab.com/gitdeeper11/NEUROPIA.git
+
+# Mirrors
+git clone https://github.com/gitdeeper11/NEUROPIA.git
+git clone https://bitbucket.org/gitdeeper-11/neuropia.git
+git clone https://codeberg.org/gitdeeper11/NEUROPIA.git
+```
+
+### Quick Commands
+
+```bash
+pip install neuropia-engine
+pip install neuropia-engine[cuda]           # CUDA-accelerated FFT
+cd NEUROPIA && pip install -e .             # Development install
+
+python benchmarks/run_all_regimes.py        # Run V1–V8 validation suite
+python examples/quick_start.py             # Minimal working example
+python bin/unified_control.py --regime full_fusion_plant
+```
 
 ---
 
